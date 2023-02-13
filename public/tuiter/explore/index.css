@@ -2,18 +2,29 @@ body {
     background-color: black;
     padding-left: 16px;
     color: white;
+    margin: 15px !important;
 }
 
 .wd-area {
     font-size: 15px;
     display: flex;
     align-items: center;
+    padding-bottom: 15px;
 }
 
 .wd-search-bar {
     width: 100%;
-    background-color: rgb(47, 51, 54);
     border-radius: 30px;
+    padding-left: 10px;
+}
+
+.fa-cog {
+    color: blue;
+    padding: 5px;
+}
+
+.fa-hashtag {
+    color: white;
 }
 
 .wd-hyperlinks {
@@ -46,7 +57,13 @@ body {
     margin: 0;
 }
 
+b, i {
+    color: black;
+}
+
 .wd-title {
+    color: rgb(110, 118, 125);
+    font-size: 13px;
     margin: 0;
 }
 
@@ -73,5 +90,31 @@ body {
     border-bottom: 1px solid rgb(47, 51, 54);
 }
 
+.card-header {
+    background-color: white !important;
+}
 
+.card-header-tabs {
+    margin-left: -1rem !important;
+}
 
+.card {
+    padding: 0 !important;
+}
+
+.card-body {
+    padding: 0 !important;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    border-left: 1px solid rgba(0,0,0,.125);
+    border-right: 1px solid rgba(0,0,0,.125);
+}
+
+.card-img-overlay {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.btn {
+    vertical-align: center;
+    border-radius: 30px !important;
+    height: 35px;
+}
