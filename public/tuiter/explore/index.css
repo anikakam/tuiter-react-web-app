@@ -13,13 +13,14 @@ body {
 }
 
 .wd-search-bar {
+    background-color: white;
     width: 100%;
     border-radius: 30px;
     padding-left: 10px;
 }
 
 .fa-cog {
-    color: blue;
+    color: lightblue;
     padding: 5px;
 }
 
@@ -58,7 +59,7 @@ body {
 }
 
 b, i {
-    color: black;
+    color: white;
 }
 
 .wd-title {
@@ -90,9 +91,6 @@ b, i {
     border-bottom: 1px solid rgb(47, 51, 54);
 }
 
-.card-header {
-    background-color: white !important;
-}
 
 .card-header-tabs {
     margin-left: -1rem !important;
@@ -115,6 +113,5 @@ b, i {
 
 .btn {
     vertical-align: center;
-    border-radius: 30px !important;
     height: 35px;
 }
